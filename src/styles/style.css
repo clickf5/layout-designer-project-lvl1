@@ -1,1 +1,78 @@
 /** CSS STYLE **/
+@font-face {
+  font-weight: 400;
+  font-family: "Neucha";
+  src: url('../fonts/Neucha-Regular.ttf') format("ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Open Sans";
+  src: url('../fonts/OpenSans-Regular.ttf') format("ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Open Sans";
+  src: url('../fonts/OpenSans-Bold.ttf') format("ttf");
+}
+
+:root {
+  --white: #fff;
+  --semitransparent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --main-dark: #42413c;
+  --dark: #2a2626;
+  --semitransparent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+body {
+  margin: 0;
+
+  color: var(--dark);
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Neucha", sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  color: white;
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+header,
+main,
+footer {
+  width: 1110px;
+  padding: 100px 0;
+}
