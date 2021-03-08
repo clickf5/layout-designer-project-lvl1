@@ -312,7 +312,12 @@ a.card:hover h3 {
 }
 
 .neucha span {
+  color: var(--semitransparent-dark);
   font-size: 24px;
+}
+
+.inverse .neucha span {
+  color: var(--semitransparent-white);
 }
 
 .neucha p {
@@ -330,4 +335,74 @@ a.card:hover h3 {
 
 .color-dark {
   color: var(--dark);
+}
+
+.form-container {
+  align-items: center;
+  margin-bottom: 76px;
+  padding: 38px 55px 40px 55px;
+}
+
+.copyright {
+  font-size: 14px;
+  text-align: center;
+}
+
+.copyright a {
+  color: var(--blue);
+}
+
+.feedback {
+  color: var(--white);
+}
+
+label[for="email"] {
+  margin-bottom: 9px;
+
+  font-size: 18px;
+}
+
+input[name="email"] {
+  box-sizing: border-box;
+  height: 50px;
+  padding: 15px;
+  border: none;
+}
+
+button[type="submit"] {
+  position: relative;
+
+  box-sizing: border-box;
+  width: 70px;
+  height: 50px;
+  border: none;
+
+  background: var(--main);
+}
+
+button[type="submit"]:hover {
+  background: var(--orange-dark);
+}
+
+button[type="submit"]::before {
+  transform: translateX(50%);
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  background: url("../images/send.svg");
+
+  content: '';
+}
+
+.f-item.grow-1 {
+  flex-grow: 1;
+}
+
+.rule {
+  font-size: 12px;
+}
+
+.rule a {
+  color: var(--white);
 }
