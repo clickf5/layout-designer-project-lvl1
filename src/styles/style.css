@@ -40,6 +40,7 @@ body {
 h1,
 h2,
 h3 {
+  color: var(--main);
   font-family: "Neucha", sans-serif;
   line-height: 1.2em;
 }
@@ -126,7 +127,7 @@ h3 {
   margin-bottom: 16px;
 }
 
-.content.inverse img {
+.inverse img {
   margin-left: -37px;
 }
 
@@ -160,7 +161,7 @@ h3 {
   background: var(--brown);
 }
 
-.inverse .cols-2 h3 {
+.cols-2.inverse h3 {
   color: var(--brown);
 
   background: var(--white);
@@ -321,4 +322,8 @@ a.card:hover h3 {
 
 .inverse {
   color: var(--white);
+}
+
+.color-dark {
+  color: var(--dark);
 }
