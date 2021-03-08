@@ -385,12 +385,12 @@ button[type="submit"]:hover {
 }
 
 button[type="submit"]::before {
-  transform: translateX(50%);
   display: block;
   width: 24px;
   height: 24px;
 
   background: url("../images/send.svg");
+  transform: translateX(50%);
 
   content: '';
 }
