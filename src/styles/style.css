@@ -408,6 +408,6 @@ button[type="submit"]::before {
   color: var(--white);
 }
 
-.mb-90 {
-  margin-bottom: 90px;
+.mb-80 {
+  margin-bottom: 80px;
 }
