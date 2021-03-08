@@ -237,7 +237,7 @@ h3 {
 .card {
   box-sizing: border-box;
   width: 350px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 24px;
 }
 
@@ -273,6 +273,7 @@ a.card:hover h3 {
 
 .card p {
   margin-top: 16px;
+  margin-bottom: 0;
 }
 
 .bg-main-dark {
