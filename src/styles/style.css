@@ -134,6 +134,28 @@ h3 {
   column-count: 2;
 }
 
+.cols-2.gap-30 {
+  column-gap: 30px;
+}
+
+.cols-2 .span-all {
+  column-span: all;
+}
+
+.cols-2 h3 {
+  padding: 5px 10px;
+
+  color: var(--white);
+
+  font-weight: 700;
+
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+
+  background: var(--brown);
+}
+
 .color-main {
   color: var(--main);
 }
@@ -194,7 +216,9 @@ h3 {
 .video {
   margin-top: 30px;
   margin-bottom: -200px;
+}
 
+.shadow {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -254,4 +278,29 @@ a.card:hover h3 {
   font-size: 64px;
   font-family: "Neucha", sans-serif;
   line-height: 1em;
+}
+
+.ml-37 {
+  margin-left: 37px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.neucha {
+  font-family: "Neucha", sans-serif;
+}
+
+.neucha span {
+  font-size: 24px;
+}
+
+.neucha p {
+  font-size: 34px;
+  line-height: 1.2em;
 }
