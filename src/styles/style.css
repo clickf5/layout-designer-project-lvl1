@@ -407,3 +407,7 @@ button[type="submit"]::before {
 .rule a {
   color: var(--white);
 }
+
+.mb-90 {
+  margin-bottom: 90px;
+}
